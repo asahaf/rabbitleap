@@ -11,7 +11,7 @@ preparing it for handling.  The envelope then, is routed to its handler by the
 :class:`.Router`, which the consumer relies on to route envelopes to their handlers.
 
 The consumer can be configured with a retry policy.  The :class:`.RetryPolicy` defines
-how to do handling retries incase a timeout or an error happens
+how to do handling retries incase a timeout or an error happens.
 """
 import logging
 
